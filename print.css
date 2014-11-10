@@ -1,0 +1,136 @@
+*{
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@page {
+  margin: .75in;
+}
+
+#container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+nav {
+  display: none;
+}
+
+/**CSS**/
+
+h1 {
+  font-size: 30pt;
+  font-weight: 400;
+  font-family: serif;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 16pt;
+  font-weight: 400;
+  font-family: serif;
+}
+
+
+address, li, td, p {
+  font-size: 12pt;
+  font-weight: 400;
+  font-family: serif;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: 700;
+  font-family: serif;
+}
+
+h2 {
+  border-bottom: 2px solid #000000;
+
+
+}
+
+h1 {
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 40%;
+}
+
+address {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-top: 6px solid #000000;
+}
+
+ul li {
+
+  margin: 0px;
+}
+
+
+
+time {
+  float: none;
+}
+
+
+
+
+span  {
+  padding-right: 30px;
+}
+
+time {
+  float: none;
+}
+
+
+h2, h3{
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  margin-top: 22px;
+}
+
+h3 {
+  margin-top: 12px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+p em {
+  padding: 0px;
+  margin: 0px;
+}
+
+#portfolio, #skills {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+a[href$=".html"] {
+  display: none;
+}
+
+a[href^="https://"] {
+  display: inline;
+}
+
+a[href^="https://"]:after { content: " (" attr(href) ") "; }
