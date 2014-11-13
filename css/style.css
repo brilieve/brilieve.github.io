@@ -169,14 +169,15 @@ div.activities {
 
 div.activities > ul {
   display: row;
+  padding: 0px;
+
 }
 
 div.activities > ul > li {
   display: table-cell;
-  width: 250px;
+  width: 275px;
   padding-right: 40px;
   padding-bottom: 15px;
-  text-align: center;
 }
 
 

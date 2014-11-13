@@ -120,6 +120,7 @@ div.activities {
 
 div.activities > ul {
   display: row;
+  padding: 0px;
 }
 
 div.activities > ul > li {
