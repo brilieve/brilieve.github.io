@@ -19,6 +19,8 @@ nav {
   display: none;
 }
 
+
+
 /**CSS**/
 
 h1 {
@@ -48,7 +50,7 @@ h3 {
 }
 
 h2 {
-  border-bottom: 2px solid #000000;
+  border-bottom: 1.5pt solid #000000;
 }
 
 h1 {
@@ -63,51 +65,57 @@ h1 {
 address {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.104166667in;
+  margin-bottom: 0.104166667in;
   width: 100%;
-  border-top: 6px solid #000000;
+  border-top: 4.5pt solid #000000;
 }
 
 
 ul li {
-  margin: 0px;
+  margin: 0in;
 }
 
 span  {
-  padding-right: 30px;
+  padding-right: 0.3125in;
 }
 
-
 h2, h3{
-  margin: 0px;
-  padding: 0px;
+  margin: 0in;
+  padding: 0in;
 }
 
 h2 {
-  margin-top: 22px;
+  margin-top: 0.229166667in;
 }
 
 h3 {
-  margin-top: 12px;
+  margin-top: 0.125in;
 }
 
 p {
-  padding: 0px;
-  margin: 0px;
+  padding: 0in;
+  margin: 0in;
 }
 
 p em {
-  padding: 0px;
-  margin: 0px;
+  padding: 0in;
+  margin: 0in;
+}
+
+a {
+  text-decoration: none;
 }
 
 
+
+/**Honors & Activities**/
+
 div.activities {
   display: table;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin-top: 0.104166667in;
+  margin-bottom: 0in;
+  padding-bottom: 0in;
 }
 
 div.activities > ul {
@@ -116,30 +124,32 @@ div.activities > ul {
 
 div.activities > ul > li {
   display: table-cell;
-  width: 300px;
-  padding-right: 40px;
-  padding-bottom: 10px;
+  width: 3.125in;
+  padding-right: 0.416666667in;
+  padding-bottom: 0.104166667in;
 }
 
 
+/**Portfolio and Skills Section**/
+
 #portfolio, #skills {
-  margin-bottom: 10px;
+  margin-bottom: 0.104166667in;
 }
 
 #collections {
-  margin: 0px;
+  margin: 0in;
 }
 
 #collections ul{
   display: list-item;
-  padding: 0px;
-  margin: 0px;
+  padding: 0in;
+  margin: 0in;
 }
 
 
 #collections li {
-  padding: 0px;
-  margin: 0px;
+  padding: 0in;
+  margin: 0in;
   border: none;
   text-decoration: inherit;
   list-style-type: inherit;
@@ -149,34 +159,31 @@ div.activities > ul > li {
 
 #collections li > a {
     display: list-item;
-    padding: 0px;
-    margin: 0px;
+    padding: 0in;
+    margin: 0in;
     border: none;
     color: #000000;
   }
 
 
+/**Bottom of Resume**/
+
 #return {
   display: none;
 }
 
-
-
-
-
 footer {
-  margin-top: 25px;
+  margin-top: 0.260416667in;
 }
+
+
+/**Links displayed after External Websites**/
 
 a[href$=".html"] {
   display: none;
 }
 
-a[href^="https://"] {
-  display: inline;
-}
-
-a[href^="http://"] {
+a[href^="https://"], a[href^="http://"]{
   display: inline;
 }
 

@@ -1,3 +1,5 @@
+/**Fonts**/
+
 h1 {
   font-size: 36px;
   font-weight: 400;
@@ -31,8 +33,8 @@ h3 {
 
 
 
-/**End of Font Section**/
 
+/**Navigation**/
 
 nav ul {
   margin: 0;
@@ -67,15 +69,15 @@ li > a:visited{
 }
 
 
-/**End of Navigation**/
-
-
+/**Lines beneath Section Headers**/
 
 h2 {
   border-bottom: 4px solid #E4E4E4;
 }
 
-/**End of Lines beneath Section Headers**/
+
+
+/**Width of Resume**/
 
 #container
 {
@@ -84,8 +86,8 @@ h2 {
 }
 
 
-/**Trying to Center my Name at Top of Resume**/
 
+/**Centering of Name at Top of Resume**/
 h1 {
 
   margin-right: auto;
@@ -105,7 +107,6 @@ address {
   border-top: 8px solid #E4E4E4;
 }
 
-/**End of Trying to Center name**/
 
 
 ul {
@@ -126,6 +127,9 @@ span  {
 
 }
 
+
+
+/**Moving Time Periods to the Right**/
 article {
   position: relative;
 }
@@ -136,8 +140,10 @@ article {
   right: 0;
 }
 
+
+/**Spacing**/
 h2 {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 h3 {
@@ -150,13 +156,13 @@ p em {
   padding: 0px;
 }
 
-
 p {
   margin: 0px;
   padding: 5px 0px 0px 0px;
 }
 
 
+/**Honors and Activities Section**/
 div.activities {
   display: table;
 }
@@ -167,19 +173,14 @@ div.activities > ul {
 
 div.activities > ul > li {
   display: table-cell;
-  width: 300px;
+  width: 250px;
   padding-right: 40px;
-  padding-bottom: 10px;
-  list-style-type: disc;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 
-
-
-
-
-
-
+/**Portfolio Section**/
 #collections li {
   list-style-type: none;
   display: inline-block;
@@ -193,14 +194,13 @@ div.activities > ul > li {
     background: #e4e4e4;
     color: #5A655F;
     margin-right: 20px;
-  }
-
+}
 
 #collections li > a:hover {
     background: #5A655F;
     color: #FFF;
     border: 1px solid #737373;
-  }
+}
 
 #collections {
   margin-left: 30px;
