@@ -1,0 +1,185 @@
+*{
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@page {
+  margin: .75in;
+}
+
+#container {
+  margin: 0in;
+  padding: 0in;
+  width: 100%;
+}
+
+nav {
+  display: none;
+}
+
+/**CSS**/
+
+h1 {
+  font-size: 30pt;
+  font-weight: 400;
+  font-family: serif;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 16pt;
+  font-weight: 400;
+  font-family: serif;
+}
+
+
+address, li, td, p, a {
+  font-size: 12pt;
+  font-weight: 400;
+  font-family: serif;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: 700;
+  font-family: serif;
+}
+
+h2 {
+  border-bottom: 2px solid #000000;
+}
+
+h1 {
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0in;
+  margin-top: 0in;
+  width: 40%;
+}
+
+address {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-top: 6px solid #000000;
+}
+
+
+ul li {
+  margin: 0px;
+}
+
+span  {
+  padding-right: 30px;
+}
+
+
+h2, h3{
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  margin-top: 22px;
+}
+
+h3 {
+  margin-top: 12px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+p em {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+div.activities {
+  display: table;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+div.activities > ul {
+  display: row;
+}
+
+div.activities > ul > li {
+  display: table-cell;
+  width: 300px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+
+#portfolio, #skills {
+  margin-bottom: 10px;
+}
+
+#collections {
+  margin: 0px;
+}
+
+#collections ul{
+  display: list-item;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+#collections li {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  text-decoration: inherit;
+  list-style-type: inherit;
+  display: list-item;
+}
+
+
+#collections li > a {
+    display: list-item;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    color: #000000;
+  }
+
+
+#return {
+  display: none;
+}
+
+
+
+
+
+footer {
+  margin-top: 25px;
+}
+
+a[href$=".html"] {
+  display: none;
+}
+
+a[href^="https://"] {
+  display: inline;
+}
+
+a[href^="http://"] {
+  display: inline;
+}
+
+a[href^="https://"]:after { content: " (" attr(href) ") "; }
+
+a[href^="http://"]:after { content: " (" attr(href) ") "; }
