@@ -34,13 +34,8 @@ h2 {
   font-family: serif;
 }
 
-address, li, p, a {
+address, li, p, a, h3 {
   font-size: 11pt;
-  font-family: serif;
-}
-
-h3 {
-  font-size: 12pt;
   font-family: serif;
 }
 
@@ -73,7 +68,7 @@ address {
 }
 
 ul li {
-  margin: 0in;
+  margin: 0in;;
 }
 
 h2, h3{
@@ -140,6 +135,7 @@ div.activities > ul > li {
   display: list-item;
   padding: 0in;
   margin: 0in;
+  color: #000000;
 }
 
 #collections li {
@@ -148,6 +144,7 @@ div.activities > ul > li {
   border: none;
   list-style-type: inherit;
   display: list-item;
+  color: #000000;
 }
 
 #collections li > a {
@@ -155,6 +152,10 @@ div.activities > ul > li {
     margin: 0in;
     border: none;
     color: #000000;
+}
+
+#collections li > a:visited{
+  color: #000000;
 }
 
 
