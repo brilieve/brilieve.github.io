@@ -1,7 +1,7 @@
 *{
   color: black;
   background: transparent;
-  font-size: 12pt;
+  font-size: 11pt;
   font-family: serif;
 }
 
@@ -27,25 +27,20 @@ h1 {
   font-size: 30pt;
   font-weight: 400;
   font-family: serif;
-  margin: 0px;
 }
 
 h2 {
   font-size: 16pt;
-  font-weight: 400;
   font-family: serif;
 }
 
-
-address, li, td, p, a {
-  font-size: 12pt;
-  font-weight: 400;
+address, li, p, a {
+  font-size: 11pt;
   font-family: serif;
 }
 
 h3 {
   font-size: 12pt;
-  font-weight: 700;
   font-family: serif;
 }
 
@@ -53,6 +48,8 @@ h2 {
   border-bottom: 1.5pt solid #000000;
 }
 
+
+/**Centering Name**/
 h1 {
 
   margin-right: auto;
@@ -71,13 +68,12 @@ address {
   border-top: 4.5pt solid #000000;
 }
 
+.gpa {
+  padding-right: 0.3125in;
+}
 
 ul li {
   margin: 0in;
-}
-
-span  {
-  padding-right: 0.3125in;
 }
 
 h2, h3{
@@ -93,12 +89,7 @@ h3 {
   margin-top: 0.125in;
 }
 
-p {
-  padding: 0in;
-  margin: 0in;
-}
-
-p em {
+p, p em {
   padding: 0in;
   margin: 0in;
 }
@@ -120,12 +111,12 @@ div.activities {
 
 div.activities > ul {
   display: row;
-  padding: 0px;
+  padding: 0in;
 }
 
 div.activities > ul > li {
   display: table-cell;
-  width: 3.125in;
+  width: 3.645833333in;
   padding-right: 0.416666667in;
   padding-bottom: 0.104166667in;
 }
@@ -135,6 +126,10 @@ div.activities > ul > li {
 
 #portfolio, #skills {
   margin-bottom: 0.104166667in;
+}
+
+#skills {
+  margin-top: 0in;
 }
 
 #collections {
@@ -147,24 +142,20 @@ div.activities > ul > li {
   margin: 0in;
 }
 
-
 #collections li {
   padding: 0in;
   margin: 0in;
   border: none;
-  text-decoration: inherit;
   list-style-type: inherit;
   display: list-item;
 }
 
-
 #collections li > a {
-    display: list-item;
     padding: 0in;
     margin: 0in;
     border: none;
     color: #000000;
-  }
+}
 
 
 /**Bottom of Resume**/
@@ -188,6 +179,4 @@ a[href^="https://"], a[href^="http://"]{
   display: inline;
 }
 
-a[href^="https://"]:after { content: " (" attr(href) ") "; }
-
-a[href^="http://"]:after { content: " (" attr(href) ") "; }
+a[href^="https://"]:after, a[href^="http://"]:after { content: " (" attr(href) ") "; }

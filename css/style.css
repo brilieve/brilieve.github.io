@@ -15,11 +15,10 @@ h2 {
 nav {
 
   font-size: 16px;
-  font-weight: 400;
   font-family: 'Lora', serif;
 }
 
-address, li, td, p, a {
+address, li, p, a {
   font-size: 12px;
   font-weight: 400;
   font-family: 'Lora', serif;
@@ -27,11 +26,8 @@ address, li, td, p, a {
 
 h3 {
   font-size: 12px;
-  font-weight: 700;
   font-family: 'Lora', serif;
 }
-
-
 
 
 /**Navigation**/
@@ -42,21 +38,18 @@ nav ul {
 }
 
 nav li {
-
   list-style-type: none;
   display: inline-block;
-
 }
 
 nav li > a {
   display: inline-block;
-  padding: 10px 24px 10px;
+  padding: 10px 25px 10px;
   border: 1px solid #ccc;
   text-decoration: none;
   background: #E4E4E4;
   color: #5A655F;
 }
-
 
 nav li > a:hover {
   background: #5A655F;
@@ -65,7 +58,7 @@ nav li > a:hover {
 }
 
 li > a:visited{
-  color: #3D67C8;
+  color: #551A8B;
 }
 
 
@@ -76,20 +69,16 @@ h2 {
 }
 
 
-
 /**Width of Resume**/
 
-#container
-{
+#container {
   width: 700px;
   margin: 0px 0px 0px 40px;
 }
 
 
-
 /**Centering of Name at Top of Resume**/
 h1 {
-
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 0px;
@@ -107,26 +96,19 @@ address {
   border-top: 8px solid #E4E4E4;
 }
 
-
-
 ul {
-
   padding: 0px 0px 0px 35px;
   margin: 0px;
 }
 
 ul li {
-
   margin-top: 5px;
 }
 
-span  {
+/**G.P.A.**/
+.gpa {
   padding-right: 50px;
-  padding-top: 10px;
-  margin-top: 10px;
-
 }
-
 
 
 /**Moving Time Periods to the Right**/
@@ -175,7 +157,7 @@ div.activities > ul {
 
 div.activities > ul > li {
   display: table-cell;
-  width: 275px;
+  width: 350px;
   padding-right: 40px;
   padding-bottom: 15px;
 }
@@ -203,14 +185,23 @@ div.activities > ul > li {
     border: 1px solid #737373;
 }
 
+#collections li > a:visited{
+  color: #551A8B;
+}
+
 #collections {
   margin-left: 30px;
 }
 
+#skills {
+  margin-top: 0px;
+}
+
+
+/**Bottom of Resume**/
 #return {
   margin-top: 25px;
 }
-
 
 footer {
   margin-top: 20px;
