@@ -4,11 +4,15 @@
 
   <head>
     <meta charset="UTF-8"/>
-    <link type="text/css" rel="stylesheet" href="css/lightGallery.css" />
-    <title>Brilieve: Photography</title>
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Parisienne|Lora:400,700|Quicksand' rel='stylesheet' type='text/css'>
+    <title>Brilieve: Photo Gallery</title>
   </head>
 
-  <body>
+
+  <body id="container">
+
+    <main id="main">
 
     <header>
       <h1>Photography</h1>
@@ -19,24 +23,44 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="desgin.html">Design</a></li>
         <li><a href="videography.html">Videography</a></li>
+        <li><a href="../resume.html">Resume</a></li>
       </ul>
     </nav>
 
 
-    <ul id="lightGallery">
-        <li data-src="img/2.jpg">
-          <img src="img/2thumb.jpg" />
-        </li>
 
-        <li data-src="img/3.jpg">
-          <img src="img/3thumb.jpg" />
-        </li>
-    </ul>
+    <section id="galleries">
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/lightGallery.min.js"></script>
-    <script src="js/light-gallery.js"></script>
+      <h2>Photo Galleries</h2>
+
+    <a href="portfolio.html">
+      <div id="portfoliobox" class="box">
+        <div class="message">Portfolio</div>
+      </div>
+    </a>
+
+    <a href="london.html">
+      <div id="londonbox" class="box">
+        <div class="message">London</div>
+      </div>
+    </a>
+
+    <a href="hands.html">
+      <div id="handsbox" class="box">
+        <div class="message">Hands</div>
+      </div>
+    </a>
+
+    </section>
+
+
+        <footer>
+          <p>&copy;Brilieve 2014. All Rights Reserved.</p>
+        </footer>
+
+      </main>
 
 
 
-  </body>
+    </body>
+  </html>

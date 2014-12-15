@@ -1,0 +1,20 @@
+*{
+  color: black;
+  background: transparent;
+  font-size: 11pt;
+  font-family: serif;
+}
+
+@page {
+  margin: .75in;
+}
+
+#container {
+  margin: 0in;
+  padding: 0in;
+  width: 100%;
+}
+
+nav {
+  display: none;
+}

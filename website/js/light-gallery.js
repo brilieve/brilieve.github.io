@@ -1,4 +1,7 @@
 
   $(document).ready(function() {
-    $("#lightGallery").lightGallery();
+    $("#lightGallery").lightGallery({
+      preload:1,
+      mode: 'fade'
+    });
   });

@@ -1,0 +1,210 @@
+#container {
+  max-width: 900px;
+  min-width: 400px;
+  margin: 0 auto 0 auto;
+  background-image: url("../img/grayblue2.png");
+}
+
+nav ul {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+h1 {
+  background-color: #cfebf8;
+  margin: 0;
+  height: 50px;
+}
+
+
+h2 {
+  font-size: 35px;
+  font-family: 'Parisienne', serif;
+  padding: 10px 0px 0px 0px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: 'Lora', sans-serif;
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Lora', sans-serif;
+}
+
+
+#homephoto {
+  float: right;
+  width: 100%
+  height: auto;
+}
+
+
+
+
+section {
+  margin: 10px 20px 15px 50px;
+}
+
+
+img {
+  margin: 30px 30px;
+}
+
+
+#main {
+  background-color: #ffffff;
+  margin-left: 0;
+  min-height: 400px;
+  padding-bottom: 20px;
+}
+
+nav {
+  background-color: #2C4351;
+  margin-left: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 5px solid #ACDEEA;
+  border-top: 5px solid #ACDEEA;
+
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+
+}
+
+nav li > a {
+  display: inline-block;
+  padding: 10px 22.7px;
+  text-decoration: none;
+  background: #2C4351;
+  color: #ACDEEA;
+  width: 175px;
+}
+
+nav li > a:hover {
+  background: #5A655F;
+  color: #FFF;
+}
+
+li > a:visited{
+  color: #AAAAAA;
+}
+
+
+
+/**Index/Home Page**/
+
+#aboutme {
+  margin-top: 30px;
+}
+
+#welcome, #aboutme {
+  border-bottom: 3px solid #AAAAAA;
+  width: 700px;
+}
+
+/**Videography Page**/
+
+#videos {
+  margin: 10px 48px;
+  padding: 0px;
+}
+
+
+/**Photography Page**/
+
+#portfoliobox {
+  background: url("../img/Me.jpg");
+  display: inline-block;
+  margin: 20px 40px 0 0;
+  padding: 0px;
+}
+
+#londonbox {
+  background: url("../img/gray1.jpg");
+  display: inline-block;
+  margin: 20px 40px 0 0;
+}
+
+
+#handsbox {
+  background: url("../img/stripes.png");
+  display: inline-block;
+  margin-right: 20px 0 0 0;
+}
+
+div.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding: 0 auto 0 auto;
+}
+
+div.message {
+    width: 200px;
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    padding: 1em;
+    background: #fff;
+    color: #000;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    -moz-transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+
+div.box:hover div.message {
+    visibility: visible;
+    opacity: 0.5;
+    transition-delay: 0s;
+}
+
+#galleries {
+  margin-left: auto;
+  margin-right: auto;
+  width: 77%;
+  padding: 0px;
+}
+
+
+/**Styling for LightGallery Pages**/
+
+#lightGallery {
+  list-style-type: none;
+  display: inline-block;
+  background: #9FAFBB;
+  border-top: 10px solid #2C4351;
+  border-bottom: 10px solid #2C4351;
+}
+
+#lightGallery li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#lightGallery li > a {
+    display: inline-block;
+}
+
+/**Footer for All Pages**/
+
+footer {
+  text-align: center;
+  margin: 80px 0 0 0;
+  padding: 0;
+  font-size: 10px;
+}

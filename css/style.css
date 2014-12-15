@@ -14,12 +14,12 @@ h2 {
 
 nav {
 
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Lora', serif;
 }
 
 address, li, p, a {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   font-family: 'Lora', serif;
 }
@@ -47,8 +47,8 @@ nav li > a {
   padding: 10px 25px 10px;
   border: 1px solid #ccc;
   text-decoration: none;
-  background: #E4E4E4;
-  color: #5A655F;
+  background: #2c4351;
+  color: #AAAAAA;
 }
 
 nav li > a:hover {
