@@ -25,7 +25,11 @@ nav ul {
 
 header {
   height: 150px;
+<<<<<<< HEAD
   background-image: url("../img/sky3.jpg")
+=======
+  background-image: url("../img/sky.JPG")
+>>>>>>> 5d5b2c2282457b3fe52cbf4589e6f7ac8acd8e69
 }
 
 h1 {
