@@ -4,6 +4,7 @@
 
 #container {
   max-width: 320px;
+  min-width: 320px;
   margin: 0 auto 0 auto;
   background-image: url("../img/grayblue2.png");
 }
@@ -14,7 +15,6 @@
   min-height: 400px;
   max-width: 300px;
   padding-bottom: 20px;
-
 }
 
 nav ul {

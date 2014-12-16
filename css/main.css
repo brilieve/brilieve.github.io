@@ -26,7 +26,7 @@ nav ul {
 
 header {
   height: 150px;
-  background-image: url("../img/sky.jpg")
+  background-image: url("../img/sky3.jpg")
 }
 
 h1 {
@@ -48,8 +48,8 @@ h3 {
   font-family: 'Lora', sans-serif;
 }
 
-p {
-  font-size: 12px;
+p, address {
+  font-size: 14px;
   font-family: 'Lora', sans-serif;
 }
 
@@ -214,6 +214,140 @@ div.box:hover div.message {
 #lightGallery li > a {
   display: inline-block;
 }
+
+
+/**Resume Specific Styling**/
+
+#education, #experience, #leadership, #honors, #skills, #portfolio {
+  border-bottom: 4px solid #E4E4E4;
+  padding-top: 10px;
+}
+
+#portfolio {
+  padding-top: 30px;
+}
+
+address {
+  padding: 15px 0px 0px 0px;
+  margin: 10px 50px 15px 50px;
+}
+
+#linkedin {
+  padding-left: 50px;
+}
+
+
+ul.resumelist {
+  padding: 0px 0px 0px 35px;
+  margin: 0px;
+}
+
+ul.resumelist li {
+  margin-top: 5px;
+}
+
+.gpa {
+  padding-right: 50px;
+}
+
+article.resumearticle {
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 20px;
+}
+
+div.activities {
+  display: table;
+  padding-top: 20px;
+}
+
+div.activities > ul {
+  display: row;
+  padding: 0px;
+
+}
+
+div.activities > ul > li {
+  display: table-cell;
+  width: 350px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+
+
+#collections li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#collections li > a {
+    display: inline-block;
+    padding: 10px 30px 10px;
+    border: 1px solid #A8A8A8;
+    text-decoration: none;
+    background: #e4e4e4;
+    color: #5A655F;
+    margin-right: 20px;
+}
+
+#collections li > a:hover {
+    background: #5A655F;
+    color: #FFF;
+    border: 1px solid #737373;
+}
+
+#collections li > a:visited{
+  color: #551A8B;
+}
+
+#collections {
+  margin-left: 30px;
+}
+
+#skills {
+  margin-top: 0px;
+}
+
+#return {
+  margin-top: 25px;
+  padding-left: 50px;
+}
+
+section.resumesection {
+  margin: 10px 50px 15px 50px;
+}
+
+p em {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+}
+
+h3 {
+  padding: 15px 0 0 0 ;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**Footer for All Pages**/
 

@@ -9,56 +9,17 @@ h1 {
   font-family: 'Quicksand', sans-serif;
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: 400;
-  font-family: 'Quicksand', sans-serif;
-}
 
-nav ul {
 
-  font-size: 20px;
-  font-family: 'Quicksand', serif;
-}
-
-address, li, p, a {
-  font-size: 14px;
-  font-weight: 400;
-  font-family: 'Lora', serif;
-}
-
-h3 {
-  font-size: 12px;
-  font-family: 'Lora', serif;
-}
 
 
 /**Navigation**/
 
 
 
-/**Lines beneath Section Headers**/
-
-h2 {
-  border-bottom: 4px solid #E4E4E4;
-}
-
 
 /**Width of Resume**/
 
-#container {
-  max-width: 900px;
-  min-width: 400px;
-  margin: 0 auto 0 auto;
-  background-image: url("../img/grayblue2.png");
-}
-
-#main {
-  background-color: #ffffff;
-  margin-left: 0;
-  min-height: 400px;
-  padding: 50px;
-}
 
 
 /**Centering of Name at Top of Resume**/
@@ -70,123 +31,26 @@ h1 {
   padding: 0;
 }
 
-address {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 7px;
-  margin-bottom: 10px;
-  width: 100%;
-  padding: 15px 0px 0px 0px;
-  border-top: 8px solid #E4E4E4;
-}
 
-ul {
-  padding: 0px 0px 0px 35px;
-  margin: 0px;
-}
-
-ul li {
-  margin-top: 5px;
-}
 
 /**G.P.A.**/
-.gpa {
-  padding-right: 50px;
-}
+
 
 
 /**Moving Time Periods to the Right**/
-article {
-  position: relative;
-}
 
-.time {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
 
 /**Spacing**/
-h2 {
-  margin-top: 25px;
-}
 
-h3 {
-  margin-top: 20px;
-  margin-bottom: 1px;
-}
 
-p em {
-  margin: 0px;
-  padding: 0px;
-}
 
-p {
-  margin: 0px;
-  padding: 5px 0px 0px 0px;
-}
 
 
 /**Honors and Activities Section**/
-div.activities {
-  display: table;
-}
-
-div.activities > ul {
-  display: row;
-  padding: 0px;
-
-}
-
-div.activities > ul > li {
-  display: table-cell;
-  width: 350px;
-  padding-right: 40px;
-  padding-bottom: 15px;
-}
 
 
 /**Portfolio Section**/
-#collections li {
-  list-style-type: none;
-  display: inline-block;
-}
-
-#collections li > a {
-    display: inline-block;
-    padding: 10px 30px 10px;
-    border: 1px solid #A8A8A8;
-    text-decoration: none;
-    background: #e4e4e4;
-    color: #5A655F;
-    margin-right: 20px;
-}
-
-#collections li > a:hover {
-    background: #5A655F;
-    color: #FFF;
-    border: 1px solid #737373;
-}
-
-#collections li > a:visited{
-  color: #551A8B;
-}
-
-#collections {
-  margin-left: 30px;
-}
-
-#skills {
-  margin-top: 0px;
-}
 
 
 /**Bottom of Resume**/
-#return {
-  margin-top: 25px;
-}
-
-footer {
-  margin-top: 20px;
-}
