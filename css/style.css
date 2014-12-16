@@ -1,3 +1,6 @@
+/**STYLESHEET FOR RESUME ONLY**/
+
+
 /**Fonts**/
 
 h1 {
@@ -12,10 +15,10 @@ h2 {
   font-family: 'Quicksand', sans-serif;
 }
 
-nav {
+nav ul {
 
-  font-size: 18px;
-  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-family: 'Quicksand', serif;
 }
 
 address, li, p, a {
@@ -32,34 +35,6 @@ h3 {
 
 /**Navigation**/
 
-nav ul {
-  margin: 0;
-  padding: 10px 0px 0px;
-}
-
-nav li {
-  list-style-type: none;
-  display: inline-block;
-}
-
-nav li > a {
-  display: inline-block;
-  padding: 10px 25px 10px;
-  border: 1px solid #ccc;
-  text-decoration: none;
-  background: #2c4351;
-  color: #AAAAAA;
-}
-
-nav li > a:hover {
-  background: #5A655F;
-  color: #FFF;
-  border: 1px solid #9626D9;
-}
-
-li > a:visited{
-  color: #551A8B;
-}
 
 
 /**Lines beneath Section Headers**/
@@ -72,9 +47,17 @@ h2 {
 /**Width of Resume**/
 
 #container {
-  max-width: 700px;
+  max-width: 900px;
   min-width: 400px;
   margin: 0 auto 0 auto;
+  background-image: url("../img/grayblue2.png");
+}
+
+#main {
+  background-color: #ffffff;
+  margin-left: 0;
+  min-height: 400px;
+  padding: 50px;
 }
 
 
