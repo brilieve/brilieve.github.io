@@ -57,21 +57,16 @@ p, address {
   float: right;
   width: 100%
   height: auto;
+  border: 3px solid #000;
 }
-
-
-
 
 section {
   margin: 10px 20px 15px 50px;
 }
 
-
 img {
   margin: 30px 30px;
 }
-
-
 
 nav {
   background-color: #2C4351;
@@ -85,14 +80,12 @@ nav ul {
   padding: 0px;
   border-bottom: 5px solid #ACDEEA;
   border-top: 5px solid #ACDEEA;
-
 }
 
 nav li {
   list-style-type: none;
   display: inline-block;
   text-align: center;
-
 }
 
 nav li > a {
@@ -113,8 +106,6 @@ li > a:visited{
   color: #AAAAAA;
 }
 
-
-
 /**Index/Home Page**/
 
 #aboutme {
@@ -133,7 +124,6 @@ li > a:visited{
   padding: 0px;
 }
 
-
 /**Photography Page**/
 
 #portfoliobox {
@@ -148,7 +138,6 @@ li > a:visited{
   display: inline-block;
   margin: 20px 40px 0 0;
 }
-
 
 #handsbox {
   background: url("../img/galleryphotos/001.jpg");
@@ -191,7 +180,6 @@ div.box:hover div.message {
   padding: 0px;
 }
 
-
 /**Styling for LightGallery Pages**/
 
 #lightGallery {
@@ -204,7 +192,6 @@ div.box:hover div.message {
   text-align: center;
 }
 
-
 #lightGallery li {
   list-style-type: none;
   display: inline-block;
@@ -213,6 +200,8 @@ div.box:hover div.message {
 #lightGallery li > a {
   display: inline-block;
 }
+
+
 
 
 /**Resume Specific Styling**/
@@ -234,7 +223,6 @@ address {
 #linkedin {
   padding-left: 50px;
 }
-
 
 ul.resumelist {
   padding: 0px 0px 0px 35px;
@@ -268,7 +256,6 @@ div.activities {
 div.activities > ul {
   display: row;
   padding: 0px;
-
 }
 
 div.activities > ul > li {
@@ -277,7 +264,6 @@ div.activities > ul > li {
   padding-right: 40px;
   padding-bottom: 15px;
 }
-
 
 #collections li {
   list-style-type: none;
@@ -289,19 +275,19 @@ div.activities > ul > li {
     padding: 10px 30px 10px;
     border: 1px solid #A8A8A8;
     text-decoration: none;
-    background: #e4e4e4;
-    color: #5A655F;
+    background: #2C4351;
+    color: #FFF;
     margin-right: 20px;
 }
 
 #collections li > a:hover {
     background: #5A655F;
-    color: #FFF;
+    color: #FFFFFF;
     border: 1px solid #737373;
 }
 
 #collections li > a:visited{
-  color: #551A8B;
+  color: #B6B6B6;
 }
 
 #collections {
@@ -336,18 +322,6 @@ h3 {
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /**Footer for All Pages**/
 
 footer {
@@ -363,4 +337,208 @@ footer {
 
 @import url("mobile.css");
 
-@import url("print.css");
+
+
+
+/**PRINT STYLE SHEET FOR RESUME**/
+
+@media print {
+
+*{
+  color: black;
+  background: transparent;
+  font-size: 11pt;
+  font-family: serif;
+}
+
+@page {
+  margin: .75in;
+}
+
+#container, #main {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  padding-left: 0;
+}
+
+section.resumesection {
+  margin: 10px 0px 15px 0px;
+}
+
+nav {
+  display: none;
+}
+
+header {
+  background-image: none;
+  height: 30px;
+  padding-bottom: .15in;
+}
+
+h1 {
+  font-size: 30pt;
+  font-weight: 400;
+  font-family: serif;
+  margin: 0;
+}
+
+h2 {
+  font-size: 16pt;
+  font-family: serif;
+  border-bottom: 1.5pt solid #000000;
+  margin-top: 0.229166667in;
+}
+
+address, li, p, a, h3 {
+  font-size: 11pt;
+  font-family: serif;
+}
+
+#linkedin {
+  padding-left: 0px;
+}
+
+/**Centering Name**/
+h1 {
+
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+}
+
+
+address {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0.104166667in;
+  margin-bottom: 0.104166667in;
+  width: 100%;
+  border-top: 4.5pt solid #000000;
+}
+
+.gpa {
+  padding-right: 0.3125in;
+}
+
+ul li {
+  margin: 0in;
+  padding: 0in;
+}
+
+h2, h3{
+  margin: 0in;
+  padding: 0in;
+}
+
+h3 {
+  margin-top: 0.125in;
+}
+
+p, p em {
+  padding: 0in;
+  margin: 0in;
+}
+
+a {
+  text-decoration: none;
+}
+
+#education, #experience, #leadership, #honors, #skills, #portfolio {
+  border-bottom: 4px solid #000;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+/**Honors & Activities**/
+
+div.activities {
+  display: table;
+  margin-top: 0..75in;
+  margin-bottom: 0in;
+  padding-bottom: 0in;
+}
+
+div.activities > ul {
+  display: row;
+  padding: 0in;
+}
+
+div.activities > ul > li {
+  display: table-cell;
+  width: 3.645833333in;
+  padding-right: 0.416666667in;
+  padding-bottom: 0.104166667in;
+}
+
+
+/**Portfolio and Skills Section**/
+
+#portfolio, #skills {
+  margin-bottom: 0.104166667in;
+}
+
+#skills {
+  margin-top: 0in;
+  padding-top: 0in;
+}
+
+#collections {
+  margin: 0in;
+}
+
+#collections ul{
+  display: list-item;
+  padding: 0in;
+  margin: 0in;
+  color: #000000;
+}
+
+#collections li {
+  padding: 0in;
+  margin: 0in;
+  border: none;
+  list-style-type: inherit;
+  display: list-item;
+  color: #000000;
+}
+
+#collections li > a {
+    padding: 0in;
+    margin: 0in;
+    border: none;
+    color: #000000;
+}
+
+#collections li > a:visited{
+  color: #000000;
+}
+
+
+/**Bottom of Resume**/
+
+#return {
+  display: none;
+}
+
+footer {
+  margin-top: 0.104166667in;
+}
+
+
+/**Links displayed after External Websites**/
+
+a[href$=".html"] {
+  display: none;
+}
+
+a[href^="https://"], a[href^="http://"]{
+  display: inline;
+}
+
+a[href^="https://"]:after, a[href^="http://"]:after { content: " (" attr(href) ") "; }
+
+
+}
