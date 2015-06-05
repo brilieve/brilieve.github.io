@@ -8,6 +8,7 @@
   min-width: 400px;
   margin: 0 auto 0 auto;
   background-image: url("../img/grayblue2.png");
+  background-attachment: fixed;
 }
 
 #main {
